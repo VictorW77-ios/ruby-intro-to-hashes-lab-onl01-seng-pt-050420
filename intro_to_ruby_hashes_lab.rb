@@ -15,9 +15,9 @@ end
 
 def monopoly_with_second_tier
 	monopoly = {
-    :railroads => {:pieces => 4, 
-    :names => { :rent_in_dollars => { 
+    :railroads => {:pieces => 4, :rent_in_dollars => { 
       :one_piece_owned => 25,
+    :names => { 
     }
 	}
 # we're setting each key of the railroads hash to a sybmol, and that symbol to a value!
